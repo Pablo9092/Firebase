@@ -20,12 +20,12 @@ para generar un conjunto de datos.
 Métodos para escribir datos en Firebase:
 
 
-|Método | Usos comunes|
--- | --
-|set() | Escribe o reemplaza datos en un ruta de acceso.|
-|push() | Realiza adiciones a una lista de datos.|
-|update() | Actualiza algunas de las claves de una ruta de acceso de definida sin reemplazar todos los datos.|
-|transaction() | Actualiza datos complejos que pueden dañarse.|
+|Método| Usos comunes|  
+--|--  
+|set()|Escribe o reemplaza datos en un ruta de acceso.|  
+|push()|Realiza adiciones a una lista de datos.|  
+|update()|Actualiza algunas de las claves de una ruta de acceso de definida sin reemplazar todos los datos.|  
+|transaction()|Actualiza datos complejos que pueden dañarse.|  
 
 
 
