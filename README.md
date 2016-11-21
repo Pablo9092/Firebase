@@ -20,12 +20,12 @@ para generar un conjunto de datos.
 Métodos para escribir datos en Firebase:
 
 
-Método | Usos comunes
+|Método | Usos comunes|
 -- | --
-set() | Escribe o reemplaza datos en un ruta de acceso.
-push() | Realiza adiciones a una lista de datos. 
-update() | Actualiza algunas de las claves de una ruta de acceso de definida sin reemplazar todos los datos.
-transaction() | Actualiza datos complejos que pueden dañarse.
+|set() | Escribe o reemplaza datos en un ruta de acceso.|
+|push() | Realiza adiciones a una lista de datos.|
+|update() | Actualiza algunas de las claves de una ruta de acceso de definida sin reemplazar todos los datos.|
+|transaction() | Actualiza datos complejos que pueden dañarse.|
 
 
 
@@ -44,13 +44,14 @@ activa una vez para el estado inicial de los datos y nuevamente cuando se cambia
 
 Puedes detectar estos tipos de eventos que recuperan datos:
 
-Evento | Uso típico
--- | --
-value |	Lectura y detección de cambios en el contenido de una ruta de acceso.
-child_added |	Recuperación de elementos o detección de adiciones en una lista de estos. Se sugiere su uso con child_changed y child_removed para realizar un seguimiento de cambios en las listas.
-child_changed |	Detección de cambios en los elementos de una lista. Se usa con child_added ychild_removed para realizar un seguimiento de cambios en las listas.
-child_removed 	| Detección de elementos quitados de una lista. Se usa con child_added ychild_changed para realizar un seguimiento de cambios en las listas.
-child_moved |	Se usa con datos ordenados para detectar cambios en la prioridad de un elemento
+**value** : Lectura y detección de cambios en el contenido de una ruta de acceso.  
+**child_added** : Recuperación de elementos o detección de adiciones en una lista de estos. Se sugiere su uso con  
+child_changed y child_removed para realizar un seguimiento de cambios en las listas.  
+**child_changed** : Detección de cambios en los elementos de una lista. Se usa con child_added ychild_removed para  
+realizar un seguimiento de cambios en las listas.  
+**child_removed** : Detección de elementos quitados de una lista. Se usa con child_added ychild_changed para realizar  
+un seguimiento de cambios en las listas.  
+**child_moved** : Se usa con datos ordenados para detectar cambios en la prioridad de un elemento.  
 
 
 
