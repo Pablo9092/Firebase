@@ -29,6 +29,12 @@ Métodos para escribir datos en Firebase:
 
 
 
+| Cabecera A | Cabecera B |
+| ---------- | ---------- |
+| Campo A0   | Campo B0   |
+| Campo A1   | Campo B1   |
+
+
 Set puede ser usada para guardar datos es una referencíaespecificada. Push nos permite agregar datos a una lista app  
 de varios usuarios.  Update nos permite actualizar información inmediatamente. Para eliminar registros se puede hacer  
 con remove o especificando el valor null para set y update.  
